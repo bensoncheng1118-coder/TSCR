@@ -43,7 +43,7 @@ SHA-256 可以在 PowerShell 用 `Get-FileHash TSCR-Setup.exe` 取得。
 1. 到 [render.com](https://render.com) 用 GitHub 登入。
 2. *New → Blueprint*，選這個儲存庫，Render 會讀取 `render.yaml` 自動建立 **Static Site**，按 *Apply*。
    （或 *New → Static Site*，選儲存庫，Build Command 留空、Publish Directory 填 `.`）
-3. 完成後網址會是 `https://tscr-website.onrender.com`（名稱被用走時 Render 會加上亂碼）。
+3. 完成後網址會是 `https://tscr.onrender.com`（名稱被用走時 Render 會加上亂碼）。
 
 之後只要推送到 GitHub，GitHub Pages 和 Render 都會自動更新。
 
