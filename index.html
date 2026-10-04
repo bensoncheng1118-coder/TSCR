@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="zh-Hant-TW" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TSCR｜看誰在說話，就聽誰說話</title>
+  <meta name="description" content="TSCR 結合相機、麥克風陣列與本機 AI，即時把對話變成標好說話人的字幕，結束後自動整理成筆記。Windows 免費下載。">
+  <meta name="theme-color" content="#0e1116">
+  <meta property="og:title" content="TSCR｜看誰在說話，就聽誰說話">
+  <meta property="og:description" content="點選畫面中的人，聚焦他的聲音並即時轉成字幕；結束後由本機 AI 整理成筆記。">
+  <meta property="og:image" content="assets/screenshot.webp">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/config.js"></script>
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top" aria-label="TSCR 首頁">
+        <img src="assets/icon.png" alt="" width="28" height="28">
+        <span>TSCR</span>
+      </a>
+      <nav class="links" id="links" aria-label="主要選單">
+        <a href="#features">功能</a>
+        <a href="#how">運作方式</a>
+        <a href="#install">安裝</a>
+        <a href="#faq">常見問題</a>
+      </nav>
+      <a class="btn btn-sm btn-primary js-download" href="#install">下載</a>
+      <button class="menu" id="menu" aria-label="開啟選單" aria-expanded="false" aria-controls="links">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Windows 免費下載 · 所有資料都留在你的電腦</p>
+        <h1>看誰在說話，<br class="br-sm">就聽誰說話。</h1>
+        <p class="lead">TSCR 結合相機、麥克風陣列與本機 AI，把多人對話即時變成<strong>標好說話人的字幕</strong>。點一下畫面中的人，就能聚焦他的聲音；對話結束後，自動整理成每個人的重點與待辦。</p>
+        <div class="cta">
+          <a class="btn btn-primary btn-lg js-download" href="#install">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" /></svg>
+            下載 Windows 版
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#how">看看怎麼運作</a>
+        </div>
+        <p class="meta"><span class="js-version">v1.0.0</span> · <span class="js-size">354 MB</span> · Windows 10 / 11（64 位元）</p>
+
+        <figure class="shot">
+          <div class="shot-bar"><i></i><i></i><i></i><span>TSCR</span></div>
+          <picture>
+            <source media="(max-width: 700px)" srcset="assets/screenshot-small.webp">
+            <img src="assets/screenshot.webp" width="1925" height="1170"
+                 alt="TSCR 主畫面：左邊是相機畫面，兩個人分別標上名字，鎖定的人有藍色框；右邊是參與者列表與即時字幕。">
+          </picture>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="wrap">
+        <h2>一個人在說話，其他人都看得懂</h2>
+        <p class="sub">適合會議、課堂、訪談，也適合聽障朋友或在吵雜環境中想看清楚「誰說了什麼」。</p>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/><path d="M19 3l2 2-2 2"/></svg></div>
+            <h3>點一下，鎖定說話的人</h3>
+            <p>在畫面中點選某個人，TSCR 會記住他、跟著他移動，並把收音方向對準他。</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3z"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+            <h3>聚焦收音</h3>
+            <p>用筆電內建的麥克風陣列判斷聲音方向，加強鎖定對象的聲音、壓低其他方向的雜音。</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M7 10h6M7 14h10"/></svg></div>
+            <h3>即時字幕</h3>
+            <p>邊說邊出字，自動轉成台灣繁體中文，國語、英語、粵語混著講也沒問題。</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="11" r="2.5"/><path d="M3 19c.8-3 3.2-5 6-5s5.2 2 6 5M14 19c.5-2 1.7-3.5 3-3.5s2.5 1.5 3 3.5"/></svg></div>
+            <h3>記得每一個人</h3>
+            <p>認得臉、也認得聲音。取一次名字，下次見面或一開口，字幕就會自動標上他的名字。</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 12h7M9 16h5"/></svg></div>
+            <h3>AI 自動整理筆記</h3>
+            <p>結束對話時選擇「產生筆記」，就會整理出每個人的重點、待辦事項與完整逐字稿。</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+            <h3>完全在你的電腦上執行</h3>
+            <p>語音辨識、人臉辨識和 AI 筆記都在本機運算，不需要帳號，聲音和影像不會上傳到任何地方。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="how">
+      <div class="wrap">
+        <h2>四個步驟開始使用</h2>
+        <ol class="steps">
+          <li class="reveal">
+            <span class="n">1</span>
+            <div>
+              <h3>打開 TSCR</h3>
+              <p>第一次啟動會自動找出能判斷方向的麥克風。相機可以用 ESP32-CAM，也可以直接用筆電鏡頭。</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="n">2</span>
+            <div>
+              <h3>點選想聽的人</h3>
+              <p>畫面中的人會被框起來。點一下就鎖定他；第一次見到的人，輸入名字就會被記住。</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="n">3</span>
+            <div>
+              <h3>看即時字幕</h3>
+              <p>右邊會出現誰說了什麼。打開「只轉錄鎖定的人」，就只顯示你在聽的那個人。</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="n">4</span>
+            <div>
+              <h3>結束並產生筆記</h3>
+              <p>按「結束對話」，選擇要不要產生筆記，畫面會清空，馬上可以開始下一段對話。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="install">
+      <div class="wrap two">
+        <div>
+          <h2>下載與安裝</h2>
+          <ol class="install">
+            <li>下載 <code class="js-file">TSCR-Setup.exe</code>，雙擊開始安裝，不需要系統管理員權限。</li>
+            <li>如果 Windows 出現「Windows 已保護您的電腦」，按<b>「其他資訊」→「仍要執行」</b>。這是因為程式沒有購買數位簽章，不是病毒。</li>
+            <li>建議勾選<b>「安裝 AI 筆記功能」</b>，安裝程式會自動下載本機 AI（需要網路，約 5 GB）。之後也可以從開始功能表再安裝。</li>
+            <li>完成！從桌面或開始功能表打開 TSCR。</li>
+          </ol>
+          <a class="btn btn-primary btn-lg js-download" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" /></svg>
+            <span>下載 <span class="js-version">v1.0.0</span>（<span class="js-size">354 MB</span>）</span>
+          </a>
+          <p class="hash">SHA-256：<code class="js-sha">—</code> <button class="copy" type="button" data-copy=".js-sha">複製</button></p>
+        </div>
+        <div class="req card">
+          <h3>系統需求</h3>
+          <dl>
+            <dt>作業系統</dt><dd>Windows 10 或 11（64 位元）</dd>
+            <dt>記憶體</dt><dd>8 GB 以上，使用 AI 筆記建議 16 GB</dd>
+            <dt>硬碟空間</dt><dd>約 1 GB；加上 AI 筆記約 6 GB</dd>
+            <dt>麥克風</dt><dd>筆電內建麥克風陣列（雙麥克風）可判斷方向；一般麥克風也能轉錄</dd>
+            <dt>相機</dt><dd>ESP32-CAM（透過 Wi-Fi）或筆電內建鏡頭</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <div class="wrap narrow">
+        <h2>常見問題</h2>
+        <details>
+          <summary>一定要有 ESP32-CAM 嗎？</summary>
+          <p>不用。打開右上角「設定」，把相機改成 <code>0</code>，就會使用筆電內建鏡頭。ESP32-CAM 的好處是可以放在桌子中間、用廣角鏡頭拍到所有人。</p>
+        </details>
+        <details>
+          <summary>同一個人被認成好幾個人怎麼辦？</summary>
+          <p>在「設定 → 分辨說話人」選「寬鬆」。也可以點那個多出來的人，輸入和原本一樣的名字，兩個就會合併，而且會記住這個人更多種聲音，之後越來越準。</p>
+        </details>
+        <details>
+          <summary>聲音方向左右顛倒了？</summary>
+          <p>到「設定」勾選「聲音方向左右相反」即可。換了不同的筆電或麥克風，可以按「重新偵測麥克風」。</p>
+        </details>
+        <details>
+          <summary>產生筆記失敗？</summary>
+          <p>筆記需要本機 AI（Ollama）。從開始功能表執行「TSCR → 安裝 AI 筆記功能」，或到 <a href="https://ollama.com" target="_blank" rel="noopener">ollama.com</a> 安裝。失敗時逐字稿一樣會保存，不會遺失。</p>
+        </details>
+        <details>
+          <summary>我的資料存在哪裡？會上傳嗎？</summary>
+          <p>不會上傳。記住的人、設定和每段對話的逐字稿都存在你電腦的 <code>%LOCALAPPDATA%\TSCR</code> 資料夾，刪除這個資料夾就會全部清除。</p>
+        </details>
+        <details>
+          <summary>怎麼解除安裝？</summary>
+          <p>開始功能表 → TSCR →「解除安裝 TSCR」，或在 Windows「設定 → 應用程式」中移除。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="wrap">
+        <h2>讓每一句話都找到說話的人</h2>
+        <a class="btn btn-primary btn-lg js-download" href="#install">免費下載 TSCR</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <span>© 2026 TSCR</span>
+      <span class="sep">·</span>
+      <a class="js-repo" href="#">GitHub</a>
+      <span class="sep">·</span>
+      <a class="js-releases" href="#">所有版本</a>
+    </div>
+  </footer>
+</body>
+</html>

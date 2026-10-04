@@ -1,0 +1,14 @@
+# Render Blueprint：在 Render 選 New → Blueprint，選這個 GitHub 儲存庫就會自動建立靜態網站
+services:
+  - type: web
+    name: tscr-website
+    runtime: static
+    buildCommand: echo "static site, no build"
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
